@@ -29,3 +29,9 @@ nav a.active {
     font-weight: bold;  
     text-decoration: underline;
 }
+.home {  
+    background-color: #2c022c;  
+    color: #ffffff;  
+    padding: 20px;  
+    text-align: center;
+}
