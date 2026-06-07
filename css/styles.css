@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 header {  
-    background-color: #6a1b9a;   
+    background-color: #dad1df;   
     padding: 20px;  
     text-align: center;
 }
@@ -15,7 +15,7 @@ header h1 {
     font-size: 2.5em;
 }
 nav {  
-    background-color: #7b1fa2;  
+    background-color: #d6d1d8;  
     padding: 10px;  
     text-align: left;
 }
@@ -36,6 +36,7 @@ nav a:hover {
     margin: 20px;  
     border-radius: 5px;
 }
+
 .contact {  
     background-color: #9c27b0;  
     color: #ffffff;  
