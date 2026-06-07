@@ -4,3 +4,55 @@ body {
     margin: 0;  
     padding: 0;
 }
+header {  
+    background-color: #fff;  
+    padding: 20px;  
+    text-align: center;  
+    color: #473a83;
+}
+nav {  
+    background-color: #fff;  
+    padding: 10px;  
+    text-align: center;
+}
+nav a {  
+    color: #473a83;  
+    text-decoration: none;  
+    margin: 0 15px;  
+    font-weight: bold;
+}
+nav a:hover {  
+    text-decoration: underline;
+}
+main {  
+    padding: 20px;  
+    color: #fff;
+}
+footer {  
+    background-color: #fff;  
+    padding: 10px;  
+    text-align: center;  
+    color: #473a83;
+}
+.about {  
+    background-color: #fff;  
+    padding: 20px;  
+    margin: 20px 0;  
+    border-radius: 5px;  
+    color: #473a83;
+}
+.contact {  
+    background-color: #fff;  
+    padding: 20px;  
+    margin: 20px 0;  
+    border-radius: 5px;  
+    color: #473a83;
+}
+.contact form {  
+    display: flex;  
+    flex-direction: column;
+}
+contact form label {  
+    margin-bottom: 5px;  
+    font-weight: bold;
+}
