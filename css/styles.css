@@ -52,6 +52,27 @@ nav a:hover {
     border-radius: 5px;
 }
 
+contact form {  
+    display: flex;  
+    flex-direction: column;  
+    max-width: 400px;  
+    margin: 0 auto;
+}
+
+contact form label {  
+    margin-bottom: 5px;  
+    font-weight: bold;
+}
+
+contact form input,
+contact form textarea {
+    padding: 10px;  
+    margin-bottom: 15px;  
+    border: none;  
+    border-radius: 5px;
+}
+
+
 footer {  
     background-color: #9c91a3;  
     color: #ffffff;  
