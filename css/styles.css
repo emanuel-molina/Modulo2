@@ -86,4 +86,9 @@ footer p {
     margin: 10px 0 ;
 }
 
+footer a {  
+    color: #ffffff;  
+    text-decoration: none;  
+    margin: 0 10px;
+}
 
