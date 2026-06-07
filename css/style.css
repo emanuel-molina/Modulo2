@@ -57,7 +57,23 @@ section {
     }   
 #contact-me h2 {
     color: #00ff4c;
-    }           
+    }      
+#contact-me p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(0, 255, 128);
+    }
+#footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    }
+
 
 
 
