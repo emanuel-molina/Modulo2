@@ -2,3 +2,18 @@ head {
     background-color: #260130;  
     font-family: Arial, sans-serif; 
 }
+
+.about {
+    background-color: #260130;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}   
+.about p {
+    font-size: 18px;
+    line-height: 1.5;
+}
