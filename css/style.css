@@ -2,81 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #153a7e;
-    }
-
+    background-color: #f4f4f4;
+}
 header {
-    background-color: #1e90ff;  
-    color: white;
-    padding: 20px;
-    text-align: center;
-    }   
-nav {
     background-color: #333;
-    overflow: hidden;
-    }   
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
-nav ul li {
-    float: left;
-    }
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center; 
-    padding: 14px 16px;
-    text-decoration: none;
-    }
-nav ul li a:hover {
-    background-color: #1e90ff;
-    }       
-main {
+    color: #fff;
     padding: 20px;
-    color: white;
-    }   
-section {
-    margin-bottom: 20px;
-    }       
-#about-me h2, #projects h2, #contact-me h2 {
-    color: #ffffff;
-    }   
-#about-me p, #projects p, #contact-me p {
-    font-size: 18px;    
-    line-height: 1.6;
-    color: white;
-    }
-#contact-me a {
-    color: #1e90ff;
-    text-decoration: none;
-    }   
-#contact-me a:hover {
-    text-decoration: underline;
-    }   
-#contact-me h2 {
-    color: #00ff4c;
-    }      
-#contact-me p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: rgb(0, 255, 128);
-    }
-footer {
-    background-color: #333; 
-    color: white;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    }
-
-
-    @media (max-width: 600px) {
-        nav ul li {
-            float: none;
-        }
-    }
+}
