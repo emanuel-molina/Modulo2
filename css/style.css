@@ -1,3 +1,10 @@
+header, nav, main, footer, inicio, sobre-mi, contactame {
+    border-radius: 10px;
+    margin: 10px;
+}
+head {
+    background-color: #07042e;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
