@@ -14,6 +14,13 @@ header h1 {
     color: #ffffff;
     font-size: 2.5em;
 }
+main {  
+    background-color: #c9c0c8;  
+    color: #ffffff;  
+    padding: 20px;  
+    margin: 20px;  
+    border-radius: 5px;
+}
 nav {  
     background-color: #d6d1d8;  
     padding: 10px;  
