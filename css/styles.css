@@ -23,15 +23,10 @@ body {
     font-size: 2.5em;
 }
 
-.header p {
-    color: #3c163d;
-    font-size: 1.1em;
-}
-
 /* NAV */
 .nav {
     background-color: #d6d1d8;
-    padding: 15px;
+    padding: 12px;
     text-align: center;
 }
 
@@ -60,68 +55,78 @@ body {
 
 /* MAIN */
 main {
-    width: 80%;
+    width: 85%;
     max-width: 1000px;
     margin: 30px auto;
+    padding: 10px;
 }
 
 /* SECCIONES */
-section {
-    background-color: #d9d7da;
+.about,
+.noticias,
+.contact {
     padding: 25px;
     margin-bottom: 25px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1px solid #b8aebd;
 }
 
-section h2 {
+.about {
+    background-color: #d9d7da;
+    color: #3c163d;
+}
+
+.noticias {
+    background-color: #c9c0c8;
+    color: #3c163d;
+}
+
+.contact {
+    background-color: #bbb9bb;
+    color: #3c163d;
+}
+
+.about h2,
+.noticias h2,
+.contact h2 {
     color: #552d58;
     margin-top: 0;
 }
 
-section p {
-    color: #3c163d;
+.about p,
+.noticias p,
+.contact p {
     line-height: 1.6;
-}
-
-/* SECCIÓN NOTICIAS */
-.noticias {
-    background-color: #c9c0c8;
-}
-
-/* SECCIÓN CONTACTO */
-.contact {
-    background-color: #bbb9bb;
 }
 
 /* FORMULARIO */
 .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    max-width: 500px;
+    max-width: 450px;
     margin-top: 15px;
+    gap: 12px;
 }
 
 .contact-form input,
 .contact-form textarea {
     padding: 12px;
     border: 1px solid #9c91a3;
-    border-radius: 6px;
+    border-radius: 5px;
     font-size: 16px;
 }
 
 .contact-form textarea {
-    min-height: 120px;
+    height: 120px;
     resize: vertical;
 }
 
 .contact-form button {
     background-color: #552d58;
-    color: white;
+    color: #ffffff;
     border: none;
     padding: 12px;
-    border-radius: 6px;
+    border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
 }
@@ -133,9 +138,10 @@ section p {
 /* FOOTER */
 .footer {
     background-color: #9c91a3;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 15px;
+    margin-top: 30px;
 }
 
 .footer p {
@@ -157,7 +163,9 @@ section p {
         margin: 10px 0;
     }
 
-    section {
+    .about,
+    .noticias,
+    .contact {
         padding: 20px;
     }
 }
