@@ -13,7 +13,12 @@ header {
 nav {  
     background-color: #fff;  
     padding: 10px;  
-    text-align: center;
+    text-align: left;
+}
+nav{  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
 }
 nav a {  
     color: #473a83;  
