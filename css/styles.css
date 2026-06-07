@@ -2,6 +2,16 @@ head {
     background-color: #260130;  
     font-family: Arial, sans-serif; 
 }
+body {
+    margin: 0;
+    padding: 0;
+}   
+body h1 {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
 
 .about {
     background-color: #260130;
