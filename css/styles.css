@@ -44,6 +44,14 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.noticias {  
+    background-color: #c9c0c8;  
+    color: #3c163d;  
+    padding: 20px;  
+    margin: 20px;  
+    border-radius: 5px;
+}   
+
 .contact {  
     background-color: #bbb9bb;  
     color: #ffffff;  
