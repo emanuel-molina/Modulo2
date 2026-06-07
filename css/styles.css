@@ -44,23 +44,23 @@ nav a:hover {
     margin: 20px;  
     border-radius: 5px;
 }
-contact form {  
+contact-form {  
     display: flex;  
     flex-direction: column;
 }
-contact form label {  
+contact-form label {  
     margin-bottom: 5px;  
     font-weight: bold;
 }
-contact form input,
-contact form textarea { 
+contact-form input,
+contact-form textarea { 
     padding: 10px;  
     margin-bottom: 15px;  
     border: none;  
     border-radius: 3px;
 }
 
-contact form button {  
+contact-form button {  
     background-color: #b7a6be;  
     color: #ffffff;  
     padding: 10px;  
