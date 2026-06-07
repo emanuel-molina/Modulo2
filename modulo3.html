@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Tarea 3.1 - Laboratorio
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1> Tarea 3.1 - Laboratorio</h1>
+                <p> Creación de una página web básica (Tarea de assessment)</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#section1">Beneficios de HTML5</a></li>
+                <li><a href="#section2">Multimedia en HTML5</a></li>
+                <li><a href="#section3">Sección 3</a></li>
+            </ul>
+        </nav>
+<main>
+    <section id="section1">
+    <h2> Identifica y compara las ventajas de la estructura HTML5</h2>
+        <p>HTML5 introduce nuevas etiquetas semánticas que mejoran la estructura
+        y el significado del contenido, facilitando la indexación por motores de
+         búsqueda y el acceso a personas con discapacidad.</p>
+         <p> HTML5 nos ayduda a organizar mejor el contenido</p>
+         <p>HTML5 nos permite o nos facilita la accesibilidad</p>
+         <p>HTML5 nos permite usar audio, imagenes, videos.</p>
+            <p>HTML5 es compatible con dispositivos móviles</p>
+    </section>
+    <section id="section2">
+    <h2> Multimedia en HTML5</h2>
+        <article>
+            <h3>Audio de ejemplo</h3>
+            <audio controls>
+                <source src="files\audio\engine.mp3" type="audio/mpeg">
+            </article>
+            <article>
+                <h3>Video de ejemplo</h3>
+                <video width="400" height="300" controls>
+                    <source src="files\video\carvideo.mp4" type="video/mp4">
+                </video>
+            </article>
+            <article>
+                <h3>Imagen de ejemplo</h3>
+                <img src="files\images\f1image.jpg" alt="Imagen de un auto" width="400" height="300">
+            </article>
+            <article>
+                <h3>Ejemplo de uso de Canvas</h3>
+                <canvas id="myCanvas" width="400" height="300" style="border:1px solid #000000;">
+                    Tu navegador no soporta el elemento canvas.
+                </canvas>
+                <script>
+                    var canvas = document.getElementById("myCanvas");
+                    var ctx = canvas.getContext("2d");
+                    ctx.fillStyle = "#FF0000";
+                    ctx.fillRect(50, 50, 200, 100);
+                </script>
+            </article>
+    </section>
+    <section id="section3">
+    <h2> Enlace del Github</h2>
+        <url>
+            <a href="https://emanuel-molina.github.io/Modulo2/">Website Modulo 3</a>
+            <a href="https://https://github.com/emanuel-molina/Modulo2">Repositorio Github</a>
+        </url>
+    </section>
+    <footer>
+        <p>© 2024 Tarea 3.1 - Laboratorio</p>
+    
+</main>
+    </body>
+</html>
