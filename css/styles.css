@@ -15,9 +15,11 @@ body {
     background-color: #dad1df;
     text-align: center;
     padding: 25px;
+    margin-top: 30px;
     margin-bottom: 25px;
     border-radius: 8px;
     border: 1px solid #b8aebd;
+
 }
 
 .header h1 {
