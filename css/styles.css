@@ -10,11 +10,14 @@ body {
     color: #3c163d;
 }
 
-/* HEADER */
+
 .header {
     background-color: #dad1df;
-    padding: 35px 20px;
     text-align: center;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #b8aebd;
 }
 
 .header h1 {
@@ -23,7 +26,7 @@ body {
     font-size: 2.5em;
 }
 
-/* NAV */
+
 .nav {
     background-color: #d6d1d8;
     padding: 12px;
@@ -53,7 +56,7 @@ body {
     text-decoration: underline;
 }
 
-/* MAIN */
+
 main {
     width: 85%;
     max-width: 1000px;
