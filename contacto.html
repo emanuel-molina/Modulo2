@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <title>Portfolio de José Rivera</title>
+
+ 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    
+<!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">JR Security</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="portafolio.html">Portafolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+   <!-- default heading -->
+    <div class="hero-image">
+  <div class="hero-text">
+    
+    <h1>Jose Rivera</h1>
+    <p>Cybersecurity Portfolio</p>
+    <a href="contacto.html" class="btn btn-light">Contáctame</a>
+  </div>
+</div>
+
+
+    <!-- final del template-->
+
+    <!-- Contenido principal -->
+    <h1 class="titulo-pagina text-center mb-4">Contacto</h1>
+
+<div class="row">
+
+    <div class="col-md-7 mb-4">
+        <form class="needs-validation caja" novalidate>
+
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+
+                <div class="invalid-feedback">
+                    Escribe tu nombre.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo" required>
+
+                <div class="invalid-feedback">
+                    Escribe un correo electrónico válido.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+
+                <div class="invalid-feedback">
+                    Escribe un mensaje.
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
+        </form>
+    </div>
+
+    <div class="col-md-5 mb-4">
+        <section class="caja">
+            <h2>Información adicional</h2>
+            <p><strong>Correo:</strong> contacto@misitio.com</p>
+            <p><strong>Teléfono:</strong> 787-555-1234</p>
+            <p><strong>Ubicación:</strong> San Juan, Puerto Rico</p>
+        </section>
+    </div>
+
+</div>
+
+<script>
+    const forms = document.querySelectorAll('.needs-validation');
+
+    forms.forEach(form => {
+        form.addEventListener('submit', event => {
+            if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+
+            form.classList.add('was-validated');
+        });
+    });
+</script>
+
+<!-- final contenido -->
+
+     <!-- footer -->
+    <footer class="footer">
+        <p>&copy; 2026 JR Security. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

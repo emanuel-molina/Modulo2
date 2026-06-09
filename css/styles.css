@@ -1,174 +1,157 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
+    background-color: #0d0d0d;
+    color: #000000;
     font-family: Arial, sans-serif;
-    background-color: #9d87ac;
-    margin: 0;
-    padding: 0;
-    color: #3c163d;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("files\images\header5.jpg");
 }
 
-.header {
-    background-color: #dad1df;
-    text-align: center;
-    padding: 25px;
-    margin: 30px auto 25px auto;
-    border-radius: 8px;
-    border: 1px solid #b8aebd;
-    width: 85%;
-    max-width: 1000px;
-}
-
-.header h1 {
-    margin: 0;
-    color: #552d58;
-    font-size: 2.5em;
-}
-
-
-
-.nav {
-    background-color: #d6d1d8;
-    padding: 12px;
-    text-align: center;
-    margin-bottom: 30px;
-    border-radius: 8px;
-}
-
-.nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav li {
-    display: inline-block;
-    margin: 0 15px;
-}
-
-.nav a {
-    color: #611968;
-    text-decoration: none;
-    font-size: 1.1em;
+.navbar-brand {
+    color: #dad1df;
     font-weight: bold;
 }
 
-.nav a:hover {
-    color: #3c163d;
+.navbar-nav .nav-link {
+    color: #dad1df;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
     text-decoration: underline;
 }
 
-main {
-    width: 85%;
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 10px;
+.navbar-nav .nav-link.active {
+    color: #ffffff;
 }
 
-.about,
-.noticias,
-.contact {
+/* header */
+
+.hero-image {
+
+  background-image: linear-gradient(rgba(75, 14, 56, 0.5), rgba(0, 0, 0, 0.5)), url("../files/images/heading5.png");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 10%;
+  position: relative;
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white;
+  padding: 100px;
+  border-radius: 12px;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+}
+
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.caja {
+    background-color: #dad1df;
     padding: 25px;
-    margin-bottom: 25px;
     border-radius: 8px;
     border: 1px solid #b8aebd;
 }
 
-.about {
-    background-color: #d9d7da;
-    color: #3c163d;
+.caja h1,
+.caja h2 {
+    color: #1f0b41;
 }
 
-.noticias {
-    background-color: #c9c0c8;
-    color: #3c163d;
-}
-
-.contact {
-    background-color: #bbb9bb;
-    color: #3c163d;
-}
-
-.about h2,
-.noticias h2,
-.contact h2 {
-    color: #552d58;
-    margin-top: 0;
-}
-
-.about p,
-.noticias p,
-.contact p {
+.caja p {
     line-height: 1.6;
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 450px;
-    margin-top: 15px;
-    gap: 12px;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 12px;
-    border: 1px solid #9c91a3;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.contact-form textarea {
-    height: 120px;
-    resize: vertical;
-}
-
-.contact-form button {
-    background-color: #552d58;
+.titulo-pagina {
     color: #ffffff;
-    border: none;
-    padding: 12px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
 }
 
-.contact-form button:hover {
-    background-color: #3c163d;
+
+.tarjeta-proyecto {
+    background-color: #d9d7da;
+    border: 1px solid #b8aebd;
 }
+
+.card-title {
+    color: #1f0b41;
+    font-weight: bold;
+}
+
+/* BOTONES */
+.btn-primary {
+    background-color: #1f0b41;
+    border-color: #1f0b41;
+}
+
+.btn-primary:hover {
+    background-color: #1f0b41;
+    border-color: #1f0b41   ;
+}
+
+.btn-secondary {
+    background-color: #9c91a3;
+    border-color: #9c91a3;
+}
+
+.btn-secondary:hover {
+    background-color: #7c7085;
+    border-color: #7c7085;
+}
+
+
+.form-control {
+    border: 1px solid #9c91a3;
+}
+
 
 .footer {
     background-color: #9c91a3;
     color: #ffffff;
     text-align: center;
     padding: 15px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .footer p {
     margin: 0;
 }
 
+
 @media screen and (max-width: 768px) {
-    main,
-    .header {
-        width: 95%;
-    }
-
-    .header h1 {
-        font-size: 2em;
-    }
-
-    .nav li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .about,
-    .noticias,
-    .contact {
+    .hero {
+        min-height: 300px;
         padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .caja {
+        margin-bottom: 20px;
     }
 }
